@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build -t dalp .
+sudo docker build -t mynn/dalp .

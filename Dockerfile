@@ -9,6 +9,7 @@ RUN (apk update || true) \
       && apk add py-pip \
       && apk add git \
       && apk add sudo \
+      && apk add openssl \
       && rm -rf /var/cache/apk/*
 
 RUN pip install docker-compose
